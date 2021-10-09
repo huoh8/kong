@@ -2,27 +2,55 @@ var topgg = {
 
     top1: [
         {
-            url: 'https://dfg22.xyz/?channelCode=zhou1',
-            text: '护士裸播',
+            url: 'https://www.hdsko.com/136',
+            text: '青青草视频',
             img: 'https://hd.cdn8-video.com/asdfghfdsa.gif',
-            description:'激情AV，国产短视频应有尽有',
+            description:'绿帽淫妻，内射中出',
             hits:'6955'
         },
         {
-            url: 'https://dfg22.xyz/?channelCode=zhou1',
-            text: '护士裸播',
-            img: 'https://hd.cdn8-video.com/asdfghfdsa.gif',
-            description:'激情AV，国产短视频应有尽有',
+            url: 'http://mdabc05.com/?dc=xza00206',
+            text: '麻豆视频',
+            img: 'https://hd.cdn8-video.com/efwefw.gif',
+            description:'台湾麻豆高清视频',
             hits:'6955'
         },
         {
-            url: 'https://dfg22.xyz/?channelCode=zhou1',
-            text: '护士裸播',
-            img: 'https://hd.cdn8-video.com/asdfghfdsa.gif',
-            description:'激情AV，国产短视频应有尽有',
+            url: 'https://a.yy678.info/?_c=xcs',
+            text: 'YY视频',
+            img: 'https://hd.cdn8-video.com/asfeytjuk.gif',
+            description:'YY视频，国产短视频应有尽有',
             hits:'6955'
         },
-        
+        {
+            url: 'http://blabc02.com/?dc=bxza7602',
+            text: '逼哩逼哩',
+            img: 'https://hd.cdn8-video.com/dsfdafdh.gif',
+            description:'熟女少妇，探花视频',
+            hits:'6955'
+        },
+        {
+            url: 'https://tm10ji.com/5mb3iP.html?code=8K7X3',
+            text: '春水堂',
+            img: 'https://hd.cdn8-video.com/sdgfdswe.gif',
+            description:'啪啪视频，免费福利',
+            hits:'6955'
+        },
+        {
+            url: 'https://mtav23.com?dc=ma294',
+            text: '蜜桃影像传媒',
+            img: 'https://hd.cdn8-video.com/asfashtrure.gif',
+            description:'无套内射诱惑做爱',
+            hits:'6955'
+        },
+        {
+            url: 'https://web.jianzhifind.com/?channelCode=JY94',
+            text: '91视频',
+            img: 'https://hd.cdn8-video.com/gffjsdfgsj.gif',
+            description:'强奸乱伦丝袜诱惑',
+            hits:'6955'
+        },
+
 
 
     ],
@@ -111,7 +139,7 @@ function renderTop(top, name) {
             '<div class="right">'+
                 '<p class="title">下载:<span>'+element.hits+'</span></p>'+
                 '<p class="platform">'+
-                    '<a target="_blank" class="download-btn">立即下载</a>'+
+                    '<a  href="'+element.url +'" target="_blank" class="download-btn">立即下载</a>'+
                 '</p>'+
             '</div>'+
         '</div>';

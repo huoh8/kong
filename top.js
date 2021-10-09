@@ -9,9 +9,9 @@ var topgg = {
             hits:'6955'
         },
         {
-            url: 'https://hd.cdn8-video.com/asfeytjuk.gif',
+            url: 'https://cpa4621.iqy24yt.com',
             text: '私密直播',
-            img: 'https://hd.cdn8-video.com/asdfghfdsa.gif',
+            img: 'https://hd.cdn8-video.com/dsfdafdh.gif',
             description:'私密直播',
             hits:'6455'
         },

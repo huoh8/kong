@@ -9,6 +9,13 @@ var topgg = {
             hits:'6955'
         },
         {
+            url: 'https://hd.cdn8-video.com/asfeytjuk.gif',
+            text: '私密直播',
+            img: 'https://hd.cdn8-video.com/asdfghfdsa.gif',
+            description:'私密直播',
+            hits:'6455'
+        },
+        {
             url: 'http://mdabc05.com/?dc=xza00206',
             text: '麻豆视频',
             img: 'https://hd.cdn8-video.com/efwefw.gif',

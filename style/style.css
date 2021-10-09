@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+		
+}
+a{ text-decoration:none} 
+*::-webkit-scrollbar {  
+    width: 5px;  
+    height: 13px;  
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    border-radius: 5px;  
+}  
+
+body{
+ padding-top: 8px;
+  
+}
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+  background-color: white;
+}
+img {
+    border-radius: 8px;
+}
+.banner {
+    width: 100%;
+    background-color: aliceblue;
+}
+.list img {
+    max-width: 52px;
+}
+.platform img {
+    max-width: 16px;
+}
+.banner img {
+    width: 100%;
+}
+
+.item{
+    padding: 4px 0;
+    overflow: hidden;
+    border-bottom: solid 1px #f2f5f6;
+
+}
+
+.item:last-child{
+    border: 0;
+	
+}
+
+.left {
+    float: left;
+    margin-right: 15px;
+}
+
+.middle {
+    float: left;
+}
+
+.middle .title {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0 10px;
+	  font-weight: 600;
+}
+
+.middle .description {
+    font-size: 14px;
+    color: #a0a0a0;
+}
+
+.right {
+    float: right;
+}
+
+.right .title {
+    font-size: 12px;
+    margin: 5px 0 10px;
+    color: #999;
+}
+
+.right .platform {
+    text-align: right;
+}
+
+.item:hover {
+    /* margin: 5px 0px 5px 0px; */
+    background-color: beige;
+}
+.mod_hotgame {
+max-width: 720px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.mod-header {
+	border-bottom: 1px solid #e4e4e4;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 11px 0 10px
+}
+
+.mod-header-h3,.mod-header-h3:after {
+	float: left;
+	font-size: 17px;
+	color: #333;
+	font-weight: 700;
+	height: 43px;
+	padding: 0 1%;
+	position: relative
+}
+
+.mod-header-h3:after {
+	position: absolute;
+	bottom: -4px;
+	height: 3px;
+	width: 100%;
+	content: "";
+	/*background: -mos-linear-gradient(left bottom,#a95ff5,#9036f0);*/
+	/*background: -webkit-gradient(linear,left bottom,right top,from(#a95ff5),to(#9036f0));*/
+	/*background: linear-gradient(left bottom,#a95ff5,#9036f0);*/
+	/*background: -webkit-gradient(linear,right top,left top,from(#9036f0),to(#a95ff5));*/
+	/* background: linear-gradient(270deg,#9036f0,#a95ff5); */
+	/*background: linear-gradient(270deg,#f03636,rgb(84 176 44 / 0%));*/
+	border-radius: 1.5px;
+	left: 0;
+	right: 0
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    width: 100%;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.mod_hotgame li p {
+    font-size: 14px;
+    width: 100%;
+    height: 32px;
+    margin: 0;
+    line-height: 32px;
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.mod-header .more {
+	line-height: 46px;
+	font-size: 14px;
+	color: #778;
+	display: block;
+	float: right
+}
+.mod_hotgame li img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mod_hotgame li {
+    float: left;
+    width: 16%;
+    margin: 10px 4.5% 0;
+}
+.mod_hotgame li .down-anz,.mod_hotgame li .down-ios,.mod_hotgame li .down-pc {
+	color: #fff;
+	background: -mos-linear-gradient(left bottom,#a95ff5,#9036f0);
+	background: -webkit-gradient(linear,left bottom,right top,from(#a95ff5),to(#9036f0));
+	background: linear-gradient(left bottom,#a95ff5,#9036f0);
+	background: -webkit-gradient(linear,right top,left top,from(#9036f0),to(#a95ff5));
+	background: linear-gradient(270deg,#9036f0,#a95ff5);
+	-webkit-box-shadow: 0 0 10px 4px rgba(59,195,255,.2);
+	box-shadow: 0 0 10px 4px rgba(59,195,255,.2);
+	text-align: center;
+	margin: 0 auto;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+	font-size: 13px;
+	border-radius: 4px
+}
+@media (max-width: 321px) {
+	
+	.mod_hotgame li p {font-size:12px}
+}
+@media (max-width: 720px) {
+	
+ 
+    .container {
+        width: 100%;
+    }
+
+    .middle .title {
+      font-size: 18px;
+    margin-bottom: 7px;
+    font-weight: 600;
+    }
+
+    .middle .description {
+        font-size: 12px;
+    }
+
+    .list {
+        padding: 0 10px;
+
+    }
+}
+ .download-btn {
+    width: 56px;
+    height: 24px;
+    box-sizing: border-box;
+    border: 2px solid rgb(84,176,44);
+    border-radius: 6px;
+    font-size: 14px;
+    color: rgb(84,176,44);
+    text-align: center;
+    line-height: 0.44rem;
+    cursor: pointer;
+    padding: 2px;
+}
